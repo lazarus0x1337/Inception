@@ -21,7 +21,7 @@
 			"com.tldraw.shape.bookmark": 2,
 			"com.tldraw.shape.draw": 2,
 			"com.tldraw.shape.geo": 9,
-			"com.tldraw.shape.note": 7,
+			"com.tldraw.shape.note": 8,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 0,
 			"com.tldraw.shape.arrow": 5,
@@ -41,92 +41,11 @@
 			"typeName": "document"
 		},
 		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": 616,
-			"y": 881,
-			"lastActivityTimestamp": 1726166754533,
-			"meta": {}
-		},
-		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
 			"index": "a1",
 			"typeName": "page"
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:color": "black",
-				"tldraw:size": "s",
-				"tldraw:font": "mono"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "move",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1532,
-				"h": 903
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 1,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:be1bYcNIEvdB6raQVkcwL"
-			],
-			"hoveredShapeId": null,
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 204,
-			"y": -416,
-			"z": 1,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
 		},
 		{
 			"x": 90,
@@ -581,8 +500,8 @@
 					"a29pV": {
 						"id": "a29pV",
 						"index": "a29pV",
-						"x": 13,
-						"y": 1660
+						"x": -22.4000244140625,
+						"y": 1270.5812072753906
 					}
 				},
 				"scale": 1
@@ -615,8 +534,8 @@
 					"a26cT": {
 						"id": "a26cT",
 						"index": "a26cT",
-						"x": -12,
-						"y": 1668
+						"x": -16.20001220703125,
+						"y": 1276.1812744140625
 					}
 				},
 				"scale": 1
@@ -695,6 +614,1332 @@
 			},
 			"parentId": "page:page",
 			"index": "aJ5NW",
+			"typeName": "shape"
+		},
+		{
+			"x": 59.0999755859375,
+			"y": 1362.1187305450444,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:gqHdBpNpOHv5hqWQ8f-tP",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.6,
+								"y": 1.78,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 4.18,
+								"z": 0.5
+							},
+							{
+								"x": 12.6,
+								"y": 5.38,
+								"z": 0.5
+							},
+							{
+								"x": 40.2,
+								"y": 11.38,
+								"z": 0.5
+							},
+							{
+								"x": 89.4,
+								"y": 16.18,
+								"z": 0.5
+							},
+							{
+								"x": 151.8,
+								"y": 19.78,
+								"z": 0.5
+							},
+							{
+								"x": 243,
+								"y": 24.58,
+								"z": 0.5
+							},
+							{
+								"x": 271.8,
+								"y": 30.58,
+								"z": 0.5
+							},
+							{
+								"x": 281.4,
+								"y": 34.18,
+								"z": 0.5
+							},
+							{
+								"x": 289.8,
+								"y": 42.58,
+								"z": 0.5
+							},
+							{
+								"x": 299.4,
+								"y": 52.18,
+								"z": 0.5
+							},
+							{
+								"x": 311.4,
+								"y": 68.98,
+								"z": 0.5
+							},
+							{
+								"x": 319.8,
+								"y": 84.58,
+								"z": 0.5
+							},
+							{
+								"x": 322.2,
+								"y": 98.98,
+								"z": 0.5
+							},
+							{
+								"x": 328.2,
+								"y": 109.78,
+								"z": 0.5
+							},
+							{
+								"x": 329.4,
+								"y": 122.98,
+								"z": 0.5
+							},
+							{
+								"x": 330.6,
+								"y": 130.18,
+								"z": 0.5
+							},
+							{
+								"x": 333,
+								"y": 134.98,
+								"z": 0.5
+							},
+							{
+								"x": 336.6,
+								"y": 124.18,
+								"z": 0.5
+							},
+							{
+								"x": 349.8,
+								"y": 109.78,
+								"z": 0.5
+							},
+							{
+								"x": 376.2,
+								"y": 94.18,
+								"z": 0.5
+							},
+							{
+								"x": 423,
+								"y": 80.98,
+								"z": 0.5
+							},
+							{
+								"x": 495,
+								"y": 71.38,
+								"z": 0.5
+							},
+							{
+								"x": 571.8,
+								"y": 66.58,
+								"z": 0.5
+							},
+							{
+								"x": 655.8,
+								"y": 66.58,
+								"z": 0.5
+							},
+							{
+								"x": 763.8,
+								"y": 66.58,
+								"z": 0.5
+							},
+							{
+								"x": 810.6,
+								"y": 66.58,
+								"z": 0.5
+							},
+							{
+								"x": 846.6,
+								"y": 66.58,
+								"z": 0.5
+							},
+							{
+								"x": 865.8,
+								"y": 60.58,
+								"z": 0.5
+							},
+							{
+								"x": 876.6,
+								"y": 58.18,
+								"z": 0.5
+							},
+							{
+								"x": 887.4,
+								"y": 49.78,
+								"z": 0.5
+							},
+							{
+								"x": 898.2,
+								"y": 41.38,
+								"z": 0.5
+							},
+							{
+								"x": 906.6,
+								"y": 29.38,
+								"z": 0.5
+							},
+							{
+								"x": 912.6,
+								"y": 19.78,
+								"z": 0.5
+							},
+							{
+								"x": 913.8,
+								"y": 13.78,
+								"z": 0.5
+							},
+							{
+								"x": 913.8,
+								"y": 10.18,
+								"z": 0.5
+							},
+							{
+								"x": 913.8,
+								"y": 6.58,
+								"z": 0.5
+							},
+							{
+								"x": 913.8,
+								"y": 5.38,
+								"z": 0.5
+							},
+							{
+								"x": 913.8,
+								"y": 4.18,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aK9Dk",
+			"typeName": "shape"
+		},
+		{
+			"x": 279.89990234375,
+			"y": 1495.8812541961674,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:DWSBwCGqUHIdVFokct3pX",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 222.77500915527344,
+				"text": "this from youtube",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aLC6O",
+			"typeName": "shape"
+		},
+		{
+			"x": -1595.4000396728516,
+			"y": -1610.3938293457031,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:sesRkXEWwbh6Tx7M1H7oR",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": -1,
+						"y": -41
+					},
+					"a26cT": {
+						"id": "a26cT",
+						"index": "a26cT",
+						"x": -5.4000244140625,
+						"y": 4056.5438232421875
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aM8r2",
+			"typeName": "shape"
+		},
+		{
+			"x": -1594.0000610351562,
+			"y": -1651.2750213623058,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GlQ5B6ufQjBSk6MtkrPLm",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a2ASD": {
+						"id": "a2ASD",
+						"index": "a2ASD",
+						"x": 1489.60009765625,
+						"y": -0.4187469482421875
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aN8wY",
+			"typeName": "shape"
+		},
+		{
+			"x": -78.39984130859375,
+			"y": -1614.3124969482433,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:K1f0aeqb_jHSaWR_ljDRu",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "s",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": -22.800048828125,
+						"y": -42.23748779296875
+					},
+					"a29pV": {
+						"id": "a29pV",
+						"index": "a29pV",
+						"x": -8.400146484375,
+						"y": 4002.431121826172
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aO7HN",
+			"typeName": "shape"
+		},
+		{
+			"x": -606.8702788860078,
+			"y": 1127.7439597771906,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PhjjvCfX0_TIujPJfuB8s",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 20,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aP9IJ",
+			"typeName": "shape"
+		},
+		{
+			"x": -1182.870339921164,
+			"y": -1699.5310768439042,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vcSHpwmKm_IIt_ZjCQog2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 87.4000015258789,
+				"text": "PART 1",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aQ6fa",
+			"typeName": "shape"
+		},
+		{
+			"x": -1571.070260575461,
+			"y": -1625.0560913397542,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:c3YNZanF_gMXi3Pnw231x",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 1153,
+				"text": "What is Docker?\n two definitions:\n                   - Docker is a set of tools to deliver software in containers.\n                   - Containers are packages of software.",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aRBMo",
+			"typeName": "shape"
+		},
+		{
+			"x": -1544.0676276120241,
+			"y": -1443.4568263072579,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rnsyr5dgsOVIcdzTB2mBz",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aS3mi",
+			"typeName": "shape"
+		},
+		{
+			"x": -1532.0676428708132,
+			"y": -1473.7943335551827,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:l3c2jRmtMlakOgP5cRmr2",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "l",
+				"w": 368.20001220703125,
+				"text": "Virtual machines:",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aT140",
+			"typeName": "shape"
+		},
+		{
+			"id": "asset:-871511211",
+			"type": "image",
+			"typeName": "asset",
+			"props": {
+				"name": "Untitled.png",
+				"src": "data:image/png;base64,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",
+				"w": 631,
+				"h": 311,
+				"fileSize": 4003,
+				"mimeType": "image/png",
+				"isAnimated": false
+			},
+			"meta": {}
+		},
+		{
+			"x": -396.14188423914686,
+			"y": -1621.7123017435583,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:88KIM1MlG01S2UA-xdmbw",
+			"type": "image",
+			"props": {
+				"w": 267.97418948845086,
+				"h": 132.07602683186724,
+				"assetId": "asset:-871511211",
+				"playing": true,
+				"url": "",
+				"crop": null,
+				"flipX": false,
+				"flipY": false
+			},
+			"parentId": "page:page",
+			"index": "aU0Wg",
+			"typeName": "shape"
+		},
+		{
+			"id": "asset:2027425773",
+			"type": "image",
+			"typeName": "asset",
+			"props": {
+				"name": "docker-vm.png",
+				"src": "data:image/png;base64,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VRGUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoQWkQEalnlAYAihKUBhGRekZpAKAoYajSsPihy695YPe9pQ+OIiIyMPfvvjcuXX35dcXM5Ysxa9as/WUPjAAca9asWftzD+BLHrpi/jceXf6zsgdHEREZmH949PafLVk9/7KC5vOFaGtrO3r48OGyx0YAUnp7e2NbW9sLuQfwxQ/Nn3PX9pufL3twFBGRgblr203PL33g0osKms8XYsaMGU/u2bOn7PERgJSdO3fG0047bU/uAfym//Mn025ac9XPyx4cRURkYJatufKVWzbOf2tB8/lCtLe333PHHXe8XvYACcAbli9f/vqUKVPuGvIgfsu663q2PrOh9AFSRER+mS1718db11+X/65PPV34wQ9+8EjZAyQAb3j/+99/NITw4SGP4EseuOy/3/vdrxwpe5AUEZFf5h8fXXF08erLPjnmU/gSnH766c8eOnSo7DESgBjjgQMH4hlnnPHMsA/iN6+99tCj+7eWPlCKiIz3fGfflnjzumsOjN20vVwTJkz4xNy5c18ue6AEIMaLLrroxQkTJnx82AfxRQ9c8b6vbll8uOzBUkRkvGfl5kXPLVtz+X8cw3l76c4+++x1mzZtKnusBBjX1q9fH88+++yHRnwQv/Xh6y5dtXXJS2UPmCIi4zWrti5+6eZ113969Kfp1TN16tTnduzYUfaYCTAubd68OU6bNq33uA/iqzYvveSrmxe7vkFEpOCs3HLD0bu2LfvPozgvr7z29va+jRs3vlb24Akwnqxbt+61EyoMiS+t//x/aWz800Orn/jn0gdREZGTPQ8+0R1v3/inh778cOclozAPr51zzjln3Zw5c146ePBg2eMowEntwIED8aKLLnrp7W9/+9pRO4gv+tan229ed803V2z8833/+Njyl7fsXR8f2789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",
+				"w": 781,
+				"h": 481,
+				"fileSize": 10960,
+				"mimeType": "image/png",
+				"isAnimated": false
+			},
+			"meta": {}
+		},
+		{
+			"x": -766.2704300202861,
+			"y": -1407.7600626964186,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XtoTl5fuuiZN9IO6K6V3X",
+			"type": "image",
+			"props": {
+				"w": 638.702817667051,
+				"h": 393.3624267578125,
+				"assetId": "asset:2027425773",
+				"playing": true,
+				"url": "",
+				"crop": null,
+				"flipX": false,
+				"flipY": false
+			},
+			"parentId": "page:page",
+			"index": "aVC8x",
+			"typeName": "shape"
+		},
+		{
+			"x": -1562.0674902829226,
+			"y": -1417.9476237315748,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WHGh91mnuPmtQrgLt2w7e",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 646.9719358852676,
+				"text": "containers have a direct access to your own Operating Systems kernel and resources.\n The resource usage overhead of using containers is minimized,\n as the applications behave as if there were no extra layers. \nAs Docker is using Linux kernels, Mac and Windows can't run it\n without a few hoops and each have their own solutions on how to run Docker.",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.1405097113715277
+			},
+			"parentId": "page:page",
+			"index": "aW9tZ",
+			"typeName": "shape"
+		},
+		{
+			"x": -1562.067581835657,
+			"y": -1005.5225203532787,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VxmcU6s3_JpJvVSKr-gxJ",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "l",
+				"w": 411.4000244140625,
+				"text": "Running containers:",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aY5Yg",
+			"typeName": "shape"
+		},
+		{
+			"x": -1156.467514696985,
+			"y": -957.2974398631663,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:c-muE5GdUCFYeeH77BNsg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 428.2832761795677,
+				"text": "$> docker container run hello-world",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1.4085625350122082
+			},
+			"parentId": "page:page",
+			"index": "aZ9v7",
+			"typeName": "shape"
+		},
+		{
+			"x": -1557.26756352511,
+			"y": -891.1101534862132,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VK3ld_5PakysxS4k7NLDe",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1081.46875,
+				"text": "The hello-world is a simple application that outputs \"Hello from Docker!\" and some additional info.",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aaA65",
+			"typeName": "shape"
+		},
+		{
+			"x": -1564.4675757321413,
+			"y": -889.9475558299632,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:mIdt1B1VJWntPoLySdgJE",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 804.2875366210938,
+				"text": "\n  To try something more ambitious, you can run an Ubuntu container with:",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ab2b8",
+			"typeName": "shape"
+		},
+		{
+			"x": -1151.6675879391726,
+			"y": -818.9224951762767,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:TVHP0dr5viQHeky8MDrLw",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 516.6812744140625,
+				"text": "$> docker run -it ubuntu bash",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ac7Rr",
+			"typeName": "shape"
+		},
+		{
+			"x": -1530.86766118136,
+			"y": -760.4226534862132,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IcNINZtnPiXnSkHiuG5EN",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1203.15625,
+				"text": "For more examples and ideas, visit: https://docs.docker.com/get-started/",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ad4qg",
+			"typeName": "shape"
+		},
+		{
+			"x": -1564.467514696985,
+			"y": -699.1851046580882,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nPgf-yXgkqc5rhOVkJfQA",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1357.9188232421875,
+				"text": "The command docker container run has a shorthand form docker run, so instead of",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ae6lN",
+			"typeName": "shape"
+		},
+		{
+			"x": -1566.8675391110476,
+			"y": -610.3101046580882,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NvGNqA-EITGAO2lrRwjBk",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "l",
+				"w": 370.9750061035156,
+				"text": "Image and containers:",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "af9B0",
+			"typeName": "shape"
+		},
+		{
+			"x": -1578.1383153862237,
+			"y": -557.6644810196319,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OjZBG4ZQ6IypJVTH-UCpU",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1674.031261589255,
+				"text": "Since we already know what containers are it's easier to explain images through them:\n      Containers are instances of images.\nAn image is like a blueprint or template, while a container is an instance of that blueprint or template.",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.8082897008784731
+			},
+			"parentId": "page:page",
+			"index": "ag4Dk",
+			"typeName": "shape"
+		},
+		{
+			"x": -1554.8675391110476,
+			"y": -420.7100070018382,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Wi-OmMx1evu66PyZ-lM_2",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "l",
+				"w": 117.79375457763672,
+				"text": "Image:",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ahBCQ",
+			"typeName": "shape"
+		},
+		{
+			"x": -1554.8675085934694,
+			"y": -351.20157616695013,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:n3XgMtDxcwUI_d5NpGe7v",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 936.4603328625984,
+				"text": "A Docker image is a file. An image never changes; you can not edit an existing file. \nCreating a new image happens by starting from a base image and adding new layers to it. \nWe will talk about layers later, but you should think of images as immutable, \nthey can not be changed after they are created.",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.3537475020732193
+			},
+			"parentId": "page:page",
+			"index": "aiBaO",
+			"typeName": "shape"
+		},
+		{
+			"x": -1125.2675024899538,
+			"y": -403.64751806445975,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:M7spWz5Cslq59QUYzjXNq",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 322.75,
+				"text": "$> docker image ls",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ajC6D",
+			"typeName": "shape"
+		},
+		{
+			"x": -1543.0499679565428,
+			"y": -144.95921346315026,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OmYIpT7CCG2yyjBESKtuM",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "l",
+				"w": 562.6000366210938,
+				"text": "where do images come from?",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ak2RW",
+			"typeName": "shape"
+		},
+		{
+			"x": -1543.049998474121,
+			"y": -89.72180959352136,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tdSEXUbmDew4f6G0oSZ2Z",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1058.1350820866137,
+				"text": "This image file is built from an instructional file named Dockerfile \nthat is parsed when you run:\n                                                     $> docker image build",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.388309790137501
+			},
+			"parentId": "page:page",
+			"index": "alBB4",
+			"typeName": "shape"
+		},
+		{
+			"x": -1528.6499740600584,
+			"y": 81.27826288572669,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tRK3o3V-74yBeMUvJfiYj",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1232.2000732421875,
+				"text": "Dockerfile is a file that is by default called Dockerfile\nDockerfile example :",
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "am9lb",
+			"typeName": "shape"
+		},
+		{
+			"x": -1466.249995422363,
+			"y": 182.90316561094642,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:c0Sozv6QdfnODSSOlg-fu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1056.737548828125,
+				"text": "FROM <image>:<tag>\nRUN <install some dependencies>\nCMD <command that is executed on `docker container run`>",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "an2qI",
+			"typeName": "shape"
+		},
+		{
+			"x": -1518.0088877312119,
+			"y": 353.37394017780684,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yOOY57YaX0VcNe4B_eHhT",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1238.6875,
+				"text": "and is the instruction set for building an image.\non short, dockerfile provides the instructions needed to build an image .\ndockerfile written by us , whereas image is written by our machine.",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aoBnC",
+			"typeName": "shape"
+		},
+		{
+			"x": -1545.26756352511,
+			"y": 544.0149685840993,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:NkyU909RFZl_TWC25JpDT",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "l",
+				"w": 173.3125,
+				"text": "Container:",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "apCFT",
+			"typeName": "shape"
+		},
+		{
+			"x": -1498.8088755241806,
+			"y": 603.2739169081535,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:YDIP4bc7vV-ANy6iV1_Nn",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1376.612548828125,
+				"text": "Containers only contain what is required to execute an application.\ncan start, stop and interact with them , they are isolated env in the host machine\nwith ability to interact with each other and the host machine itself via defined \nmethods TCP/UDP",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aq5GA",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -1129.798682931132,
+			"y": 2942.2003086882896,
+			"lastActivityTimestamp": 1733257465865,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:size": "l",
+				"tldraw:font": "serif",
+				"tldraw:color": "black"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 912,
+				"h": 903
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 1715.798682931132,
+			"y": -1570.2003086882896,
+			"z": 0.5,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -1265.798682931132,
+			"y": 797.9034336882895,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:V-Rz3ncjzWH0y-HAmOKmK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 749.453125,
+				"text": "$> docker container ls      or       $> docker ps",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ar8VF",
+			"typeName": "shape"
+		},
+		{
+			"x": -1503.798682931132,
+			"y": 858.2003086882895,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:63Fk6sFubRxDa3_TyKnAf",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1370.1875,
+				"text": "Without -a flag it will only print running containers. The hello-worlds we ran already exited.",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "as3I1",
+			"typeName": "shape"
+		},
+		{
+			"x": -1499.798682931132,
+			"y": 1000.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WQzGHbB70yuL4Ud3eyBXQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1239.90625,
+				"text": "remove the image :   $> docker image rm hello-world\nHowever, this should fail with the following error:\nmeans that a container that was created from the image hello-world still\nexists and that removing hello-world could have consequences. \n\nSo before removing images :\nyou should have the referencing container removed first\nforcing is usually a bad idea !",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "at8Rv",
+			"typeName": "shape"
+		},
+		{
+			"x": -1503.798682931132,
+			"y": 1418.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_t89opYZ64S_3ForsiVJQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1369.484375,
+				"text": "Let's remove the container with docker container rm command. It accepts a container's name or ID as its arguments.",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "au7WA",
+			"typeName": "shape"
+		},
+		{
+			"x": -1187.798682931132,
+			"y": 1534.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ftRqJA_gfYN3JRzSOanW2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 630.640625,
+				"text": "$> docker container rm  [id or name]",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "avBzK",
+			"typeName": "shape"
+		},
+		{
+			"x": -1521.798682931132,
+			"y": 1584.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:bDn8_L5pPD7SkWYcghlD-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1337.078125,
+				"text": " if a container's ID is 3d4bab29dd67, use . docker container rm 3d . to delete it",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aw3ge",
+			"typeName": "shape"
+		},
+		{
+			"x": -1493.798682931132,
+			"y": 1682.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:spDUECL8QkGOSqkpbJrYA",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1238.078125,
+				"text": "to delete all them :  $>  docker container prune\nprune also bo used to remove \"dangling\" image : $> docker image prune",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ax3C4",
+			"typeName": "shape"
+		},
+		{
+			"x": -1481.798682931132,
+			"y": 1784.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CFIhqA1ARBq7dY3FKlQ7l",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "l",
+				"w": 1196.609375,
+				"text": "Dangling images are images that do not have a name and are not used",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "ay0ar",
+			"typeName": "shape"
+		},
+		{
+			"x": -1469.798682931132,
+			"y": 1848.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:270hHP87wzzzf82XB4HRg",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "l",
+				"w": 752.328125,
+				"text": "delete averything  : $> docker system prune",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "az5zE",
+			"typeName": "shape"
+		},
+		{
+			"x": -1481.798682931132,
+			"y": 1934.2003086882896,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:BvkIO8EbjsjzzYjiudW_j",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 1141.671875,
+				"text": "After removing all of the hello-world containers,\n $> run docker image rm hello-world to delete the image. \nYou can use docker image ls to confirm that the image is not listed.",
+				"font": "serif",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b002Bf",
 			"typeName": "shape"
 		}
 	]
