@@ -1,14 +1,16 @@
 FROM alpine:3.21
 
-# build-time workdir
-WORKDIR /usr/src/nginx
-
-# build-base	Provides the essential build tools like make and gcc.
-# openssl-dev	Enables HTTPS support by providing OpenSSL libraries and headers.
-# pcre-dev	Allows Nginx to process regular expressions in configuration files.
-# zlib-dev	Adds Gzip compression support for optimized content delivery. 
 RUN apk update && \
-    apk add nginx openssl bash && \
-    
+    apk add nginx openssl && \
+    mkdir -p /etc/nginx/ssl && \
+    openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout /etc/nginx/ssl/nginx.key \
+    -out /etc/nginx/ssl/nginx.crt \
+    -subj "/CN=${DOMAIN_NAME:-localhost}"
 
-apk add --no-cache build-base openssl-dev pcre-dev zlib-dev curl 
+
+COPY conf/nginx.conf /etc/nginx/default.conf
+
+EXPOSE 443
+
+CMD ["nginx", "-g", "daemon off;"]
