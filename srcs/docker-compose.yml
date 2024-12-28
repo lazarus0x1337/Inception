@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: "nginx:inception"
+    container_name: nginx
+    build: ./requirements/nginx/.
+    ports:
+      - "443:443"
+    networks:
+      - inception_network
+    restart: always
+    
+  wordpress:
+    image: "wordpress:inception"
+    container_name: wordpress
+    build: ./requirements/wordpress/.
+    env_file:
+      - .env
+    networks:
+      - inception_network
+
+
+
+
+#Custom network
+networks:
+  inception_network:
