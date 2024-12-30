@@ -5,6 +5,9 @@ services:
     image: "nginx:inception"
     container_name: nginx
     build: ./requirements/nginx/.
+    volumes:
+      - /home/afanidi/data/nginx:/var/www/html 
+      - /home/afanidi/data/nginx/logs:/var/log/nginx
     ports:
       - "443:443"
     networks:
@@ -17,10 +20,27 @@ services:
     build: ./requirements/wordpress/.
     env_file:
       - .env
+    volumes:
+      - /home/afanidi/data/wordpress:/var/www/html
+      - /home/afanidi/data/php/logs:/var/log/php-fpm.log
     networks:
       - inception_network
+    restart: always
+    depends_on:
+      - mariadb
 
-
+  mariadb:
+    image: "mariadb:inception"
+    container_name: mariadb
+    build: ./requirements/mariadb/.
+    volumes:
+      - /home/afanidi/data/mariadb:/var/lib/mysql
+      - /home/afanidi/data/mariadb/logs:/var/log/mysql
+    env_file:
+      - .env
+    networks:
+      - inception_network
+    restart: always
 
 
 #Custom network
