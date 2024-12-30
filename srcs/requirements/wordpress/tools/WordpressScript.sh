@@ -1,26 +1,16 @@
 # exit when script returns a non-zero exit status
 set -e
-wait_for_mariadb()
-{
-    echo "Waiting for MariaDB to be ready..."
-    while ! mysqladmin ping -h mariadb -u "$MYSQL_USER" --password="$MYSQL_PASSWORD"  --silent; do
-        echo "sleeping ..."
-        sleep 5
-    done
-    echo "MariaDB is up and running, let's go!"
-}
 
-wait_for_mariadb
-
-if [ ! -e /etc/.firstrun ]; then
-    #Removing the 127.0.0.1 to listen on all available interfaces at port 9000
-    sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /etc/php82/php-fpm.d/www.conf
-    if ! id -u www-data > /dev/null 2>&1; then
-        echo "Creating www-data user"
-        adduser -D -s /bin/sh www-data  # Create user with /bin/sh as shell
-    fi
-    touch /etc/.firstrun
+if [ ! -e .firstbuild ]; then
+    wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar 
+    chmod +x wp-cli.phar 
+    mv wp-cli.phar /usr/local/bin/wp
+    touch .firstbuild
 fi
+cd  /var/www/html
+#Removing the 127.0.0.1 to listen on all available interfaces at port 9000
+sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /etc/php83/php-fpm.d/www.conf
+
 
 if [ ! -f wp-config.php ]; then
         echo "Installing WordPress..."
@@ -54,7 +44,10 @@ if [ ! -f wp-config.php ]; then
         fi
 else
         echo "WordPress is already installed."
+fi
 
-chown -R www-data:www-data /var/www/html
+chown -R nobody:nobody /var/www/html
+
+exec php-fpm83 -F
 
 echo "Starting PHP-FPM..."

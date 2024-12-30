@@ -11,7 +11,11 @@ services:
     ports:
       - "443:443"
     networks:
-      - inception_network
+      - inceptionNet
+    depends_on:
+      - wordpress
+    env_file:
+      - .env
     restart: always
     
   wordpress:
@@ -24,7 +28,7 @@ services:
       - /home/afanidi/data/wordpress:/var/www/html
       - /home/afanidi/data/php/logs:/var/log/php-fpm.log
     networks:
-      - inception_network
+      - inceptionNet
     restart: always
     depends_on:
       - mariadb
@@ -39,17 +43,18 @@ services:
     env_file:
       - .env
     networks:
-      - inception_network
+      - inceptionNet
     restart: always
   # redis:
   #   image: "redis:inception"
   #   build: ./requirements/bonus/redis/.
   #   container_name: redis
   #   networks:
-  #     - inception_network
+  #     - inceptionNet
   #   restart: always
     
 
 #Custom network
 networks:
-  inception_network:
+  inceptionNet:
+    driver: bridge

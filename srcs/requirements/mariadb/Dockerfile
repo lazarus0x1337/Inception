@@ -16,5 +16,3 @@ COPY tools/mariadbScript.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/mariadbScript.sh
 
 ENTRYPOINT [ "mariadbScript.sh" ]
-
-CMD ["mysqld", "--user=mysql"]
