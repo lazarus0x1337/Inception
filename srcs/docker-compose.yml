@@ -41,7 +41,14 @@ services:
     networks:
       - inception_network
     restart: always
-
+  # redis:
+  #   image: "redis:inception"
+  #   build: ./requirements/bonus/redis/.
+  #   container_name: redis
+  #   networks:
+  #     - inception_network
+  #   restart: always
+    
 
 #Custom network
 networks:
