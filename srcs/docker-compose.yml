@@ -45,6 +45,7 @@ services:
     env_file:
       - .env
     restart: always
+
   redis:
     image: "redis:inception"
     build: ./requirements/bonus/redis/.
@@ -53,6 +54,19 @@ services:
       - inceptionNet
     restart: always
     
+  ftp:
+    image: "ftp:inception"
+    build: ./requirements/bonus/ftp/.
+    container_name: ftp
+    ports:
+      - "21:21"
+      - "21000-21010:21000-21010"
+    env_file:
+      - .env
+    #need volume
+    networks:
+      - inceptionNet
+    restart: always
 
 #Custom network
 networks:

@@ -2,7 +2,9 @@
 
 # #Removing the 127.0.0.1 to listen on all available interfaces at port 9000
 sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /etc/php83/php-fpm.d/www.conf
+
 cd  /var/www/html
+
 if [ ! -e .firstbuild ]; then
         echo "WordPress installation process..."
         wp core download --allow-root || true
@@ -31,6 +33,11 @@ if [ ! -e .firstbuild ]; then
         --skip-email # dont send email 
 
         wp user create "$WORDPRESS_USER" "$WORDPRESS_EMAIL" --role=author --user_pass="$WORDPRESS_PASSWORD" --allow-root
+        
+        #Classic Editor plugin
+        wp plugin install classic-editor --activate --allow-root
+        wp option update classic-editor-replace classic --allow-root
+
         touch .firstbuild
 else
         echo "WordPress is already installed."
