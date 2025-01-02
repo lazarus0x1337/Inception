@@ -45,13 +45,13 @@ services:
     env_file:
       - .env
     restart: always
-  # redis:
-  #   image: "redis:inception"
-  #   build: ./requirements/bonus/redis/.
-  #   container_name: redis
-  #   networks:
-  #     - inceptionNet
-  #   restart: always
+  redis:
+    image: "redis:inception"
+    build: ./requirements/bonus/redis/.
+    container_name: redis
+    networks:
+      - inceptionNet
+    restart: always
     
 
 #Custom network
