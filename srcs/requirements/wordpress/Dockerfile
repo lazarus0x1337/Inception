@@ -6,8 +6,8 @@ RUN apk update && apk add --no-cache php php-fpm php-mysqli php-json php-curl ph
 
 WORKDIR /var/www/html
 
-COPY tools/WordpressScript.sh /usr/local/bin/
+COPY tools/WordpressScript.sh /
 
-RUN chmod +x /usr/local/bin/WordpressScript.sh
+RUN chmod +x /WordpressScript.sh
 
-ENTRYPOINT ["/usr/local/bin/WordpressScript.sh"]
+ENTRYPOINT ["/WordpressScript.sh"]

@@ -1,17 +1,19 @@
+#!/bin/bash
 # exit when script returns a non-zero exit status
 set -e
 
+
 if [ ! -e .firstbuild ]; then
+    echo "installing wp cli..."
     wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar 
     chmod +x wp-cli.phar 
     mv wp-cli.phar /usr/local/bin/wp
     touch .firstbuild
 fi
-cd  /var/www/html
-#Removing the 127.0.0.1 to listen on all available interfaces at port 9000
+
+# #Removing the 127.0.0.1 to listen on all available interfaces at port 9000
 sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /etc/php83/php-fpm.d/www.conf
-
-
+cd  /var/www/html
 if [ ! -f wp-config.php ]; then
         echo "Installing WordPress..."
         wp core download --allow-root || true

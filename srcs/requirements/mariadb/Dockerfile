@@ -11,8 +11,8 @@ RUN mkdir -p /run/mysqld && \
     chown -R mysql:mysql /var/lib/mysql && \
     chown -R mysql:mysql /var/log/mysql
 
-COPY tools/mariadbScript.sh /usr/local/bin/
+COPY tools/mariadbScript.sh /
 
-RUN chmod +x /usr/local/bin/mariadbScript.sh
+RUN chmod +x /mariadbScript.sh
 
-ENTRYPOINT [ "mariadbScript.sh" ]
+ENTRYPOINT [ "/mariadbScript.sh" ]

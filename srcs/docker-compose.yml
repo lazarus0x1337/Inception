@@ -12,23 +12,23 @@ services:
       - "443:443"
     networks:
       - inceptionNet
-    depends_on:
-      - wordpress
     env_file:
       - .env
     restart: always
+    depends_on:
+      - wordpress
     
   wordpress:
     image: "wordpress:inception"
     container_name: wordpress
     build: ./requirements/wordpress/.
-    env_file:
-      - .env
     volumes:
       - /home/afanidi/data/wordpress:/var/www/html
       - /home/afanidi/data/php/logs:/var/log/php-fpm.log
     networks:
       - inceptionNet
+    env_file:
+      - .env
     restart: always
     depends_on:
       - mariadb
@@ -40,10 +40,10 @@ services:
     volumes:
       - /home/afanidi/data/mariadb:/var/lib/mysql
       - /home/afanidi/data/mariadb/logs:/var/log/mysql
-    env_file:
-      - .env
     networks:
       - inceptionNet
+    env_file:
+      - .env
     restart: always
   # redis:
   #   image: "redis:inception"

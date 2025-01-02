@@ -1,5 +1,7 @@
 FROM alpine:3.21
 
+EXPOSE 443
+
 RUN apk update && apk add nginx openssl 
 
 RUN mkdir -p /etc/nginx/ssl && \
@@ -8,8 +10,8 @@ RUN mkdir -p /etc/nginx/ssl && \
     -out /etc/nginx/ssl/nginx.crt \
     -subj "/CN=${DOMAIN_NAME:-localhost}"
 
-COPY conf/nginx.conf /etc/nginx/default.conf
+COPY conf/nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 443
+COPY conf/default.conf /etc/nginx/conf.d/default.conf
 
 CMD ["nginx", "-g", "daemon off;"]

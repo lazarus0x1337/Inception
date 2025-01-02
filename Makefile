@@ -17,5 +17,5 @@ ps:
 	$(CMD) ps
 
 fclean: down
-	$(CMD) down --rmi all -v
+	$(CMD) down --rmi all -v --remove-orphans
 	docker system prune -af
