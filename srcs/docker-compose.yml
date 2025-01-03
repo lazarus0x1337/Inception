@@ -67,6 +67,30 @@ services:
     networks:
       - inceptionNet
     restart: always
+  
+  adminer:
+    image: "adminer:inception"
+    build: ./requirements/bonus/adminer/.
+    container_name: adminer
+    env_file:
+      - .env
+    #need volume
+    networks:
+      - inceptionNet
+    restart: always
+
+  portainer:
+    image: "portainer:inception"
+    build: ./requirements/bonus/portainer/.
+    container_name: portainer
+    env_file:
+      - .env
+    ports:
+      - "9000:9000"
+    #need volume
+    networks:
+      - inceptionNet
+    restart: always
 
 #Custom network
 networks:
