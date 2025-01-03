@@ -5,9 +5,6 @@ services:
     image: "nginx:inception"
     container_name: nginx
     build: ./requirements/nginx/.
-    volumes:
-      - /home/afanidi/data/nginx:/var/www/html 
-      - /home/afanidi/data/nginx/logs:/var/log/nginx
     ports:
       - "443:443"
     networks:
@@ -23,8 +20,8 @@ services:
     container_name: wordpress
     build: ./requirements/wordpress/.
     volumes:
-      - /home/afanidi/data/wordpress:/var/www/html
-      - /home/afanidi/data/php/logs:/var/log/php-fpm.log
+      - v-wordpress:/var/www/html
+      - v-wordpress:/var/log/php-fpm.log
     networks:
       - inceptionNet
     env_file:
@@ -38,8 +35,8 @@ services:
     container_name: mariadb
     build: ./requirements/mariadb/.
     volumes:
-      - /home/afanidi/data/mariadb:/var/lib/mysql
-      - /home/afanidi/data/mariadb/logs:/var/log/mysql
+      - v-mariadb:/var/lib/mysql
+      - v-mariadb:/var/log/mysql
     networks:
       - inceptionNet
     env_file:
@@ -63,10 +60,13 @@ services:
       - "21000-21010:21000-21010"
     env_file:
       - .env
-    #need volume
+    volumes:
+      - v-wordpress:/ftp-data
     networks:
       - inceptionNet
     restart: always
+    depends_on:
+      - wordpress
   
   adminer:
     image: "adminer:inception"
@@ -74,10 +74,11 @@ services:
     container_name: adminer
     env_file:
       - .env
-    #need volume
     networks:
       - inceptionNet
     restart: always
+    depends_on:
+      - mariadb
 
   portainer:
     image: "portainer:inception"
@@ -85,9 +86,9 @@ services:
     container_name: portainer
     env_file:
       - .env
-    ports:
-      - "9000:9000"
-    #need volume
+    volumes:
+    - v-portainer:/data
+    - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - inceptionNet
     restart: always
@@ -96,3 +97,18 @@ services:
 networks:
   inceptionNet:
     driver: bridge
+
+volumes:
+  v-wordpress:
+  v-mariadb:
+  v-portainer:
+
+
+
+#https://docs.docker.com/engine/daemon/
+#sudo systemctl stop docker
+#sudo nano /etc/docker/daemon.json
+
+#{
+#  "data-root": "/home/data/afanidi"
+#}

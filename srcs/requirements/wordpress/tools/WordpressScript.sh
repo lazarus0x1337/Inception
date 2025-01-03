@@ -6,6 +6,7 @@ sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /etc/php83/php-fpm.d/www.conf
 cd  /var/www/html
 
 if [ ! -e .firstbuild ]; then
+        mariadb-admin ping --protocol=tcp --host=mariadb -u "$MYSQL_USER" --password="$MYSQL_PASSWORD" --wait >/dev/null 2>/dev/null
         echo "WordPress installation process..."
         wp core download --allow-root || true
         
